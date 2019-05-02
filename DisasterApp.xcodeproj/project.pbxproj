@@ -13,6 +13,8 @@
 		CE28B874227AD5A800807553 /* DisasterApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE28B872227AD5A800807553 /* DisasterApp.xcdatamodeld */; };
 		CE28B876227AD5A800807553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE28B875227AD5A800807553 /* Assets.xcassets */; };
 		CE28B879227AD5A800807553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE28B877227AD5A800807553 /* LaunchScreen.storyboard */; };
+		CE28B883227AE27E00807553 /* OngoingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28B882227AE27E00807553 /* OngoingViewController.swift */; };
+		CE28B885227AE2BE00807553 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28B884227AE2BE00807553 /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE28B875227AD5A800807553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE28B878227AD5A800807553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE28B87A227AD5A800807553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE28B882227AE27E00807553 /* OngoingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngoingViewController.swift; sourceTree = "<group>"; };
+		CE28B884227AE2BE00807553 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CE28B877227AD5A800807553 /* LaunchScreen.storyboard */,
 				CE28B87A227AD5A800807553 /* Info.plist */,
 				CE28B872227AD5A800807553 /* DisasterApp.xcdatamodeld */,
+				CE28B882227AE27E00807553 /* OngoingViewController.swift */,
+				CE28B884227AE2BE00807553 /* AccountViewController.swift */,
 			);
 			path = DisasterApp;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE28B86E227AD5A800807553 /* ViewController.swift in Sources */,
+				CE28B885227AE2BE00807553 /* AccountViewController.swift in Sources */,
 				CE28B874227AD5A800807553 /* DisasterApp.xcdatamodeld in Sources */,
+				CE28B883227AE27E00807553 /* OngoingViewController.swift in Sources */,
 				CE28B86C227AD5A800807553 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

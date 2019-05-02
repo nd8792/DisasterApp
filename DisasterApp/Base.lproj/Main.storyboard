@@ -13,7 +13,7 @@
         <!--Ongoing-->
         <scene sceneID="XUc-BY-cmb">
             <objects>
-                <viewController id="P22-yo-sbO" sceneMemberID="viewController">
+                <viewController id="P22-yo-sbO" customClass="OngoingViewController" customModule="DisasterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5ye-wE-lHS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,17 +26,17 @@
             </objects>
             <point key="canvasLocation" x="1606" y="192"/>
         </scene>
-        <!--View Controller-->
+        <!--Account-->
         <scene sceneID="f5V-pq-nad">
             <objects>
-                <viewController id="shZ-OU-w36" sceneMemberID="viewController">
+                <viewController id="shZ-OU-w36" customClass="AccountViewController" customModule="DisasterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gir-Uj-Fip">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="IwE-RT-kLU"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Bof-0k-uQG"/>
+                    <navigationItem key="navigationItem" title="Account" id="Bof-0k-uQG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oeb-Ma-6uY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,7 +45,7 @@
         <!--Discover-->
         <scene sceneID="Ptt-qT-kTK">
             <objects>
-                <viewController id="xmo-5f-a4k" userLabel="Discover" sceneMemberID="viewController">
+                <viewController id="xmo-5f-a4k" userLabel="Discover" customClass="ViewController" customModule="DisasterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nlf-mo-lWY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
